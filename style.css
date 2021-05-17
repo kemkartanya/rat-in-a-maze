@@ -1,0 +1,68 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  height: 40px;
+  width: 40px;
+
+  margin-left: 25px;
+  margin-top: 65px;
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+p {
+  text-align: center;
+  margin-top: 360px;
+}
+
+h7 {
+  margin-left: 590px;
+  margin-top: 30px;
+}
+
+#solcon {
+  height: 40px;
+  width: 40px;
+
+  margin-left: 370px;
+  margin-top: 65px;
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+  padding: 3em;
+  border: 1px solid rgb(106, 186, 252);
+}
+
+#start {
+  background: url(jerry.jpg);
+  background-repeat: no-repeat;
+  background-size: 101%;
+}
+
+#end {
+  background: url(cheese.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#block {
+  background-color: red;
+}
+
+#path {
+  background-color: green;
+}
+
+#sol {
+  margin-top: 450px;
+  display: flex;
+}
